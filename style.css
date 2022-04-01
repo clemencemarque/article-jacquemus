@@ -93,7 +93,7 @@ h5{font-family: timesnewroman;
 
 .banner-fixed{
 			height:60vh;
-			background-image: url("../site-internet/banner-fixe.jpeg");
+			background-image: url("banner-fixe.jpeg");
 			margin: 48px 0;
 			background-size: cover;
 			background-attachment: fixed;
