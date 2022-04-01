@@ -1,0 +1,31 @@
+.card{
+	background-color: White;
+	padding: 60px;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+
+}
+
+.card img{
+	width: 60%;
+	height: 60%;
+}
+
+@media (min-width: 576px) {
+ .cards{
+ 	grid-template-columns: 1fr 1fr;
+ }
+}
+
+
+@media (min-width: 768px) {
+	.cards{
+ 	grid-template-columns: 1fr 1fr;
+	}
+}

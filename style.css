@@ -1,0 +1,100 @@
+@import url('cards.css');
+@import url('footer.css');
+
+
+body{background-color: whitesmoke;
+	font-family: roboto;
+	text-align: center;
+	margin: 0;}
+
+h1{font-family: lora;
+	color: darkgoldenrod;}
+
+h2{font-family: futura;
+	background-color: darkgoldenrod;
+	color: whitesmoke;}
+
+h5{font-family: timesnewroman;
+	font-size: large;}
+
+.card-white {
+	background-color: white;
+	padding: 100px;
+	margin: 30px auto ;
+	width: 900px; 
+	border-radius: 6px
+}
+
+.card-1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.text{margin-right: 20px ;
+	text-align: justify;
+}
+.card-2{display: flex;
+	justify-content: space-around;
+}
+.text2{margin-right: 20px ;
+	text-align: justify;
+}
+
+.btn-blue {
+	background-color: black; 
+	color: white; 
+	padding: 16px; 
+	border-radius: 6px; 
+	font-weight: bold;
+	width: 25%; 
+	margin: 16px auto;
+	text-decoration: none;
+}
+.btn-blue:hover{
+	background-color: darkgoldenrod
+}
+
+.list-inline a{
+	font-size: 48px;
+}
+
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.icons i{
+	font-size: 24px;
+	color: darkgoldenrod;
+	justify-self: center;
+}
+
+.icons{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+@media (min-width: 576px){
+	.icons{grid-template-columns: 1fr 1fr;}
+}
+
+@media (min-width: 768px){
+	.icons{grid-template-columns: 1fr 1fr 1fr;}
+}
+
+@media (min-width: 992px){
+	.icons{grid-template-columns: 1fr 1fr 1fr 1fr;}
+}
+
+@media (min-width: 1200px){
+	.icons{grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+}
+
+.banner-fixed{
+			height:60vh;
+			background-image: url("../site-internet/banner-fixe.jpeg");
+			margin: 48px 0;
+			background-size: cover;
+			background-attachment: fixed;
+		}
